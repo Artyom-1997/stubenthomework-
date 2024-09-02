@@ -1,0 +1,28 @@
+﻿data_structure = [1, 2, 3], {'a': 4, 'b': 5},(6, {'cube': 7, 'drum': 8}), "Hello",  ((), [{(2, 'Urban',('Urban2', 35))}])
+]
+     numbers =  [1, 2, 3,4,5,6,7,8,2,35]
+    average = sum("numbers")/ len("numbers")
+       print(average)
+    def data_structure (*args)
+       total = sum (args)
+        return  total
+      result = data_structure (1,2,3,4,5,6,7, 8,2,35)
+              print( result)
+
+    data_structure =  "path/to/file.txt"
+    with open (data_structure) as file:
+    line_count =  sum (1  for line in file)
+           import os
+       data_structure =  open("some_file.txt")
+    lines = 0
+    words = 0
+    symbols = 0
+for line in data_structure:
+    lines += 1
+    words += len(line.split())
+    symbols += len( line.replace("", ""))
+print( "количество строк:", lines)
+print("количество слов:", words)
+print("количество букв ( без учёта пробелов):" , symbols)
+
+
